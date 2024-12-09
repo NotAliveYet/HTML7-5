@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Google search" />
+    <meta name="author" content="ლუკა ქვრივიშვილი" />
+    <link rel="icon" href="icon/icon.svg" />
+    <title>პროდუცტების ფილტრი</title>
+</head>
+
+<body>
+    <h1>dress up</h1>
+    <form action="https://dressup.ge/en/74-women">
+
+        <label>კატეგორია:</label>
+        <br />
+        <label for="female"></label>
+        <input type="radio" name="gender" id="female" value="female" />ქალები
+        <br />
+        <label for="male"></label>
+        <input type="radio" name="gender" id="male" value="male" />კაცები
+        <br />
+        <label for="kids"></label>
+        <input type="radio" name="gender" id="kids" value="kids" />ბავშვები
+        <br />
+        <br />
+        <label for="calvin">ბრენდები</label>
+        <br />
+        <input name="brand" id="calvin" type="checkbox" />Calvin Klein
+        <br />
+        <label for="nike"></label>
+        <input name="brand" value="nike" id="nike" type="checkbox" />Nike
+        <br />
+        <label for="adidas"></label>
+        <input name="brand" value="adidas" id="adidas" type="checkbox" />Adidas
+        <br />
+        <br />
+        <br />
+        <label for="waist">წელის ზომა:</label>
+        <select name="waist-size" id="waist">
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+        </select>
+        <br />
+        <br />
+        <label for="season">მოსაზრება:</label>
+        <select name="season" id="season">
+            <option value="all-season" id="all-season">ყველა სეზონი</option>
+            <option value="spring-summer" id="spring-summer">ზაფხული</option>
+            <option value="fall-winter" id="fall-winter">ზამთარი</option>
+        </select>
+        <br />
+        <br />
+        <label for="submit"></label>
+        <input type="submit" value="ძებნა" id="submit" />
+    </form>
+</body>
+
+</html>
